@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangogirls1120', # DB名を設定
+        'NAME': 'maetatomoko$djangogirls1120', # DB名を設定
         'USER': 'maetatomoko', # DBへ接続するユーザIDを設定
         'PASSWORD': 'mysqlpassword', # DBへ接続するユーザIDのパスワードを設定
         'HOST': 'maetatomoko.mysql.pythonanywhere-services.com',
