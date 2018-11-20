@@ -78,9 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangogirls1120', # DB名を設定
-        'USER': 'root', # DBへ接続するユーザIDを設定
-        'PASSWORD': 'root', # DBへ接続するユーザIDのパスワードを設定
-        'HOST': 'localhost',
+        'USER': 'maetatomoko', # DBへ接続するユーザIDを設定
+        'PASSWORD': 'mysqlpassword', # DBへ接続するユーザIDのパスワードを設定
+        'HOST': 'maetatomoko.mysql.pythonanywhere-services.com',
         'PORT': '3306',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
